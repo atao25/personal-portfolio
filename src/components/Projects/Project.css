@@ -1,0 +1,63 @@
+.mywork {
+    padding: 40px;
+    background-color: #000; 
+}
+  
+.mywork-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+  
+.mywork-title h1 {
+    font-size: 36px;
+    color: #fff; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+  
+.mywork-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+  
+.project-item {
+    background-color: #333; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); 
+    overflow: hidden;
+    max-width: 350px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+  
+.project-item:hover {
+    transform: translateY(-10px);
+}
+  
+.project-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 200px; 
+    object-fit: cover;
+}
+  
+.project-description {
+    padding: 10px; 
+    text-align: center;
+}
+  
+.project-description h2 {
+    font-size: 20px; 
+    color: #fff;
+    margin: 10px 0;
+}
+  
+.project-description p {
+    font-size: 14px;
+    color: #ccc; 
+    line-height: 1.4;
+}
