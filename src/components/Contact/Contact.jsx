@@ -19,7 +19,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-detail">
                         <img src={linkedin_icon} alt="LinkedIn Icon" />
-                        <p><a href="https://www.linkedin.com/in/allisontao" target="_blank" rel="noopener noreferrer">My linkedin</a></p>
+                        <p><a href="https://www.linkedin.com/in/allisonrtao" target="_blank" rel="noopener noreferrer">My linkedin</a></p>
                     </div>
                     <div className="contact-detail">
                         <img src={github_icon} alt="Github Icon" />
